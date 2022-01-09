@@ -1,1 +1,1 @@
-web: gunicorn MOBIL IDAMAN:app --log-file -
+web: gunicorn visualisasi-car:app --log-file -
