@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 finalproject/
+web: bokeh serve --port=$PORT --allow-websocketorigin=visualisasi-car.herokuapp.com --address=0.0.0.0 --use-xheaders mobil idaman.py
